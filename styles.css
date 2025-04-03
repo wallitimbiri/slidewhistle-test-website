@@ -1,0 +1,17 @@
+* {
+    background-color: black;
+    border: none;
+    margin: 1%;
+    padding: 1%;
+}
+body {
+    border: none;
+    margin: 1%;
+    padding: 1%;
+}
+h1 {
+    color: white;
+    font-family: verdana;
+    text-align: center;
+    font-size: 600%;
+}
