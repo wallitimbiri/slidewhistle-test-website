@@ -1,17 +1,130 @@
 * {
     background-color: black;
-    border: none;
-    margin: 1%;
-    padding: 1%;
-}
-body {
-    border: none;
-    margin: 1%;
-    padding: 1%;
-}
-h1 {
     color: white;
     font-family: verdana;
     text-align: center;
-    font-size: 600%;
+    margin: 1%;
+    padding: 1%;
+    scroll-behavior: smooth;
+}
+body {
+    border: 1px solid grey;
+    border-radius: 10px;
+    float: right;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 1%;
+    padding: 2% 0%;
+}
+section {
+    border: 1px solid grey;
+    margin: 2% 5%;
+    padding: 0%;
+}
+h1 {
+    border: none;
+    font-size: 200%;
+    margin: 0%;
+    padding: 5%;
+}
+h2 {
+    border: 1px solid grey;
+    margin: 1%;
+    padding: 5%;
+    font-size: 150%;
+}
+p {
+    border: none;
+    margin: 1%;
+    padding: 1%;
+    text-align: left;
+    font-size: 100%;
+    height: auto;
+}
+.dedication {
+    border: 1px solid grey;
+    width: 80%;
+    margin: 0% 5%;
+    padding: 0% 5%;
+}
+.quotation {
+    border: 1px solid grey;
+    width: 60%;
+    margin: 5% 20%;
+    padding: 5% 0%;
+}
+.quotation-text {
+    border: none;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+ul {
+    border: none;
+    margin: 1%;
+    padding: 0%;
+    list-style-type: none;
+}
+li {
+    border: 1px solid grey;
+    margin: 1% 0%;
+    padding: 2% 2%;
+    text-align: left;
+    font-size: 100%;
+}
+li>a {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+li>a:visited {
+    color: white;
+}
+li>a:hover {
+    color: dimgrey;
+    text-decoration: underline;
+}
+li>a:active {
+    color: white;
+}
+.intro {
+    border: 1px solid grey;
+}
+.chapters {
+    border: none;
+    margin: 0%;
+    padding: 0%;
+}
+.chapter {
+    border: 1px solid grey;
+    margin: 0% 1%;
+    padding: 0%;
+    height: auto;
+}
+
+.collapsible {
+    border: none;
+    margin: 0%;
+    padding: 4%;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.active, .collapsible:hover {
+    background-color: dimgrey;
+}
+
+.content {
+    border: none;
+    margin: 0% 0%;
+    padding: 0% 1%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.conclusion {
+    border: 1px solid grey;
 }
