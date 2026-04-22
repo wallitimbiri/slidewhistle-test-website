@@ -103,8 +103,7 @@ li>a:active {
     padding: 0%;
     height: auto;
 }
-
-.collapsible {
+.chapter-title {
     border: none;
     margin: 0%;
     padding: 4%;
@@ -114,12 +113,10 @@ li>a:active {
     font-size: 125%;
     font-weight: bold;
 }
-
-.active, .collapsible:hover {
+.active, .chapter-title:hover {
     background-color: dimgrey;
 }
-
-.content {
+.chapter-content {
     border: none;
     margin: 0% 0%;
     padding: 0% 1%;
